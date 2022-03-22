@@ -1,13 +1,9 @@
 Body{
- margin: 0px;
+ margin: 0;
 }
 
 button{
   cursor: pointer;
-}
-
-.Nav1{
-  width: 80%;
 }
 
 .top{
@@ -31,8 +27,11 @@ margin-right: 20px;
   align-items: center;
   width: 100%;
   margin: auto;
-  height: 70px;
+  height: 84px;
+  position: fixed;
+  z-index: 99;
 }
+
 
 .Header a{
   text-decoration: none;
@@ -49,6 +48,11 @@ margin-right: 20px;
 
 }
 
+.isScrolled{
+  transition: all 0.5s ease;
+  background-color: white;
+}
+
 #Salg{
   color: red;
 }
@@ -63,7 +67,7 @@ a {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: white;
+  background-color: transparent;
 }
 
 /* Links inside the navbar */
@@ -84,22 +88,20 @@ a {
 
 .dropbtn{
   width: 80px;
-  padding-bottom: 0px;
+  padding: 15px;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
   border: none;
   outline: none;
-  color: black;
-  background-color: white;
+  background: transparent;
   font: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover {
   border-bottom: 2px solid #000;
 }
 
@@ -126,7 +128,6 @@ a {
   box-sizing: border-box;
   background-color: white;
   height: 250px;
-  padding: 10px;
 }
 
 /* Style links inside the columns */
