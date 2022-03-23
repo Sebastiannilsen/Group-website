@@ -137,11 +137,13 @@ p{
 
 .helmet-section h1{
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .helmet-section{
     width: 70%;
     margin: auto;
+    padding-top: 50px;
 }
 
 .helmet-image{
