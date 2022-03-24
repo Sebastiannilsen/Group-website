@@ -66,6 +66,10 @@ a {
   text-decoration: none;
 }
 
+.dropbtn:hover{
+  opacity: 70%;
+}
+
 
 
 /* Navbar container */
