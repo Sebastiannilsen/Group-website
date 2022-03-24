@@ -38,9 +38,10 @@ margin-right: 20px;
   color: black;
 }
 
-.Header a:hover{
-  border-bottom: 2px solid #000;
-}
+
+/*.Header a:hover{
+  color: #717171;
+}*/
 
 
 #Logo{
@@ -104,8 +105,8 @@ a {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover {
-  border-bottom: 2px solid #000;
+.navbar a:hover, .dropdown:hover ,.Header a:hover{
+  color: #717171;
 }
 
 /* Dropdown content (hidden by default) */
@@ -143,10 +144,10 @@ a {
   text-align: left;
 }
 
-/* Add a background color on hover */
+/*!* Add a background color on hover *!
 .column a:hover {
   border-bottom: 2px solid #000;
-}
+}*/
 
 /* Clear floats after the columns */
 .row:after {
