@@ -70,6 +70,11 @@ a {
   opacity: 70%;
 }
 
+#LogoImage{
+  width: 6.5em;
+  margin: auto;
+}
+
 
 
 /* Navbar container */
