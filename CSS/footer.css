@@ -17,10 +17,12 @@
 }
 
 footer{
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
 }
 
 footer .col{
@@ -28,7 +30,9 @@ footer .col{
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
+    padding: 20px;
 }
+
 
 footer .logo{
     margin-bottom: 30px;
@@ -85,4 +89,13 @@ footer .follow i:hover, footer a:hover{
 footer .copyright{
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    .logo{
+        display: none;
+    }
 }

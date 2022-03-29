@@ -62,7 +62,7 @@
     padding: 100px 0;
 }
 .inner-section-1{
-    width: 55%;
+    width: 50%;
     float: right;
     background-color: #e7c99d;
     padding: 140px;
@@ -99,7 +99,7 @@
     float: left;
     background-color: #f7dede;
     padding: 140px;
-    box-shadow: 12px 13px 8px rgba(0,0,0,0.3);
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
 }
 .inner-section-2 h1{
     margin-bottom: 30px;
